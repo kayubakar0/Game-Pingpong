@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
+
+    public ParticleSystem destroyparticle;
+    public int speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,10 +16,6 @@ public class Target : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Time.deltaTime * transform.forward * 2;
+        transform.position += Time.deltaTime * transform.forward * speed;
     }
-    
-    // void OnTriggerEnter(Collider col) {
-    //     Destroy(gameObject);
-    // }
 }

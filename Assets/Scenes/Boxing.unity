@@ -1156,7 +1156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167825544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 1.5, z: 0}
+  m_LocalPosition: {x: -0.471, y: 1.283, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2066124144}
@@ -4353,7 +4353,7 @@ GameObject:
   - component: {fileID: 581968231}
   - component: {fileID: 581968230}
   - component: {fileID: 581968229}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5148,7 +5148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &625572581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7753,7 +7753,7 @@ GameObject:
   - component: {fileID: 913449086}
   - component: {fileID: 913449085}
   - component: {fileID: 913449088}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7853,6 +7853,7 @@ MonoBehaviour:
     m_Bits: 64
   score: 0
   scoreUI: {fileID: 442437092}
+  destroyparticle: {fileID: 265766274217486953, guid: d3015b7eea383f64d8b81f965cc466e7, type: 3}
 --- !u!1001 &920242026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9380,7 +9381,7 @@ GameObject:
   - component: {fileID: 1113642974}
   - component: {fileID: 1113642973}
   - component: {fileID: 1113642976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9480,6 +9481,7 @@ MonoBehaviour:
     m_Bits: 64
   score: 0
   scoreUI: {fileID: 442437092}
+  destroyparticle: {fileID: 265766274217486953, guid: d3015b7eea383f64d8b81f965cc466e7, type: 3}
 --- !u!1001 &1114458442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11644,7 +11646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347917527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0.318, y: 1.253, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2066124144}
@@ -12347,7 +12349,7 @@ GameObject:
   - component: {fileID: 1459968118}
   - component: {fileID: 1459968117}
   - component: {fileID: 1459968116}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16289,7 +16291,7 @@ MonoBehaviour:
   - {fileID: 167825545}
   - {fileID: 1148790397}
   - {fileID: 664519053}
-  beat: 0.5714286
+  beat: 0.8
 --- !u!4 &2066124144
 Transform:
   m_ObjectHideFlags: 0
